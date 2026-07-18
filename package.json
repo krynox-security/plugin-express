@@ -1,0 +1,45 @@
+{
+  "name": "@krynox/captcha-express",
+  "version": "0.1.0",
+  "description": "Krynox Captcha for Express — verify middleware + widget embed helper. Privacy-first, proof-of-work CAPTCHA.",
+  "keywords": [
+    "express",
+    "captcha",
+    "krynox",
+    "middleware",
+    "proof-of-work",
+    "privacy",
+    "bot"
+  ],
+  "homepage": "https://krynox.net",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "express": ">=4"
+  },
+  "devDependencies": {
+    "@types/express": "^4 || ^5",
+    "express": ">=4",
+    "typescript": "^5.4.0",
+    "@types/node": "^20 || ^22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krynox-security/plugin-express.git"
+  }
+}
