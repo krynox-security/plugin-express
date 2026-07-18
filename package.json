@@ -41,5 +41,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krynox-security/plugin-express.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
