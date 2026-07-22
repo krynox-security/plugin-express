@@ -11,6 +11,10 @@ Set `KRYNOX_SECRET_KEY` (your `kcps_…` secret) in the environment.
 
 ## Verify middleware
 
+Visitor IP comes from Express `req.ip`. Behind a proxy, configure `trust proxy`
+with the exact trusted proxy addresses/hops; the plugin never parses raw
+`X-Forwarded-For` itself.
+
 Drop `krynoxCaptcha()` in front of any route. It reads the solved token from the request body
 field `krynox-captcha` (mount a body parser first) and falls back to the `x-krynox-captcha`
 header for fetch/API clients. On failure it responds `403`; on success it attaches the full result

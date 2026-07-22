@@ -36,9 +36,9 @@ export interface KrynoxMiddlewareConfig {
 }
 
 function clientIp(req: Request): string | undefined {
-  const fwd = req.headers['x-forwarded-for'];
-  const first = Array.isArray(fwd) ? fwd[0] : fwd?.split(',')[0];
-  return first?.trim() || req.socket?.remoteAddress || undefined;
+  // Express computes req.ip from the socket and only consults forwarding headers
+  // when the application explicitly configures `trust proxy`.
+  return req.ip || req.socket?.remoteAddress || undefined;
 }
 
 /**
