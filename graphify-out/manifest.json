@@ -1,0 +1,62 @@
+{
+  "package.json": {
+    "mtime": 1784710941.1231308,
+    "ast_hash": "81c9859582e19b269b2c7d05964315d5",
+    "semantic_hash": "81c9859582e19b269b2c7d05964315d5"
+  },
+  "src/index.ts": {
+    "mtime": 1784347997.9088175,
+    "ast_hash": "3c35101eb887627dccdd942aa5204241",
+    "semantic_hash": "3c35101eb887627dccdd942aa5204241"
+  },
+  "src/middleware.ts": {
+    "mtime": 1784711042.9293642,
+    "ast_hash": "6de03e9b631fe69e0d25de5fe48be7a5",
+    "semantic_hash": "6de03e9b631fe69e0d25de5fe48be7a5"
+  },
+  "src/verify.ts": {
+    "mtime": 1784710941.1374955,
+    "ast_hash": "bbfbfde02985bdcc17c6e5b7e4eaade8",
+    "semantic_hash": "bbfbfde02985bdcc17c6e5b7e4eaade8"
+  },
+  "src/widget.ts": {
+    "mtime": 1784347974.250021,
+    "ast_hash": "6e9bcb1136346410fad34be981aa0b0f",
+    "semantic_hash": "6e9bcb1136346410fad34be981aa0b0f"
+  },
+  "tests/integration.test.ts": {
+    "mtime": 1785087102.40115,
+    "ast_hash": "e25d618a9e871174e24348b6b820ab78",
+    "semantic_hash": "e25d618a9e871174e24348b6b820ab78"
+  },
+  "tsconfig.json": {
+    "mtime": 1784347936.7784257,
+    "ast_hash": "7a1ce22a4e143aab97da3c01646db35d",
+    "semantic_hash": "7a1ce22a4e143aab97da3c01646db35d"
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1785087162.7974956,
+    "ast_hash": "c20a94f15dd896b8206acdff4ba6c967",
+    "semantic_hash": ""
+  },
+  ".github/workflows/release.yml": {
+    "mtime": 1784711042.928364,
+    "ast_hash": "a151a93cb7771d10588570b29725646f",
+    "semantic_hash": ""
+  },
+  ".github/workflows/security.yml": {
+    "mtime": 1784951552.1791356,
+    "ast_hash": "394157dc5ae4eadd51bf579a4539cda1",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1784714233.5466568,
+    "ast_hash": "13c46d344c3fee1a18c010401fad0c4a",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1784711042.928364,
+    "ast_hash": "f5fc353b6c8d6b4791099a90a63cafc1",
+    "semantic_hash": ""
+  }
+}
